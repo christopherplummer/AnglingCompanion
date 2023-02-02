@@ -2,7 +2,7 @@
 
 namespace AnglingCompanion.Models;
 
-public class Trip : UserResource
+public class Trip : Resource
 {
     public DateTime StartTime { get; set; }
     public DateTime EndTime { get; set; }
