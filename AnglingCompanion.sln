@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnglingCompanion.API", "AnglingCompanion.API\AnglingCompanion.API.csproj", "{CE8BE4E6-BF6F-4053-A6A8-5B11D8668249}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnglingCompanion.Models", "AnglingCompanion.Models\AnglingCompanion.Models.csproj", "{E566A4D8-7AC2-4B44-9251-8353667ABF17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{CE8BE4E6-BF6F-4053-A6A8-5B11D8668249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE8BE4E6-BF6F-4053-A6A8-5B11D8668249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE8BE4E6-BF6F-4053-A6A8-5B11D8668249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E566A4D8-7AC2-4B44-9251-8353667ABF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E566A4D8-7AC2-4B44-9251-8353667ABF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E566A4D8-7AC2-4B44-9251-8353667ABF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E566A4D8-7AC2-4B44-9251-8353667ABF17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
