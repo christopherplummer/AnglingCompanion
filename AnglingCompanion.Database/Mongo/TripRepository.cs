@@ -7,6 +7,6 @@ public class TripRepository : BaseResourceRepository<Trip>
 {
     public TripRepository(IMongoClient mongoClient) : base(mongoClient)
     {
-        CollectionName = "trip";
+        CollectionName = "trips";
     }
 }
