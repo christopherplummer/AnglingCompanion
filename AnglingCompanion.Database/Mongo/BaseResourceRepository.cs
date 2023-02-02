@@ -27,6 +27,20 @@ public abstract class BaseResourceRepository<T> where T : Resource
             throw;
         }
     }
+    
+    public virtual async Task<List<T>> GetByUserId(Guid userId)
+    {
+        try
+        {
+            var items = await GetCollection().AsQueryable().ToListAsync();
+            return items.Where(x => x.UserId == userId).ToList();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
 
     public virtual async Task<T> GetById(Guid id)
     {
