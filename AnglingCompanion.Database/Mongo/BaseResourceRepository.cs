@@ -1,4 +1,4 @@
-﻿using AnglingCompanion.Models.Base;
+﻿using AnglingCompanion.Models.Abstractions;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 

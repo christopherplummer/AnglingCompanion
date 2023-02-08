@@ -1,4 +1,4 @@
-﻿using AnglingCompanion.Models.Base;
+﻿using AnglingCompanion.Models.Abstractions;
 
 namespace AnglingCompanion.Models;
 

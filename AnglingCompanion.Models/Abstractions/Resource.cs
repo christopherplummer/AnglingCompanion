@@ -1,4 +1,4 @@
-﻿namespace AnglingCompanion.Models.Base;
+﻿namespace AnglingCompanion.Models.Abstractions;
 
 public abstract class Resource
 {
